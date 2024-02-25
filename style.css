@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 50vh;
+  height: 100%;
+  border: 3px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: lightgrey;
+}
+
+.task-form {
+  margin-bottom: 1rem;
+}
+
+.task-form input {
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.task-form button {
+  background-color: beige;
+  border-color: lightblue;
+  border-radius: 20px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.list-container {
+  border: 1px solid gray;
+  margin-bottom: 30px;
+  padding: 1rem;
+  background-color: beige;
+  display: flex;
+}
+.tasks {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0;
+}
+.tasks li {
+  border-radius: 10px;
+  border: 2px solid gray;
+  display: flex;
+  background-color: white;
+  padding: 1rem 6rem;
+}
+.tasks li:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
